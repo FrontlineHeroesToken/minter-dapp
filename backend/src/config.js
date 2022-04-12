@@ -144,20 +144,20 @@ const LIMIT = 4; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'FrontlineHeroesTEST';
-const CONTRACT_SYMBOL = 'FHNFTsTEST';
+const CONTRACT_NAME = 'FrontlineHeroes';
+const CONTRACT_SYMBOL = 'FHNFTs';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x9217E338A416CB3C38F93f871629fbF24db62f4d';
 const TREASURY_ADDRESS = '0x9217E338A416CB3C38F93f871629fbF24db62f4d';
 const MAX_SUPPLY = 8000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.003; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0.03; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-04-11T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-05-14T15:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-04-11T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-05-11T15:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 2000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x8f020DB49E4bd2C97C7C95eA9775bf84b95C576A"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -165,11 +165,11 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0x9217E338A416CB3C38F93f871629fbF24db62f4d"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x5abAd7e456F081d19cb4DEb5349f18aAa6E518c3"; // If you want to manually include it
+let CONTRACT_ADDRESS = ""; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = "FrontlineHeroesTEST"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
+const GENERIC_TITLE = "FrontlineHeroes"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which Frontline Hero Are You Getting?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeigrc7xyjhtatlnwl6hk2rsk5t5vus4s7raigx4dywlpis6trfv43e"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
